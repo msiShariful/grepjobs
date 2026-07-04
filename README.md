@@ -11,6 +11,8 @@ the stacks they run, how careers ladder, and what the pay actually looks like.
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-e8a13d?style=flat-square)
 
+**[▶ Live demo](https://msishariful.github.io/grepjobs/)**
+
 <img src=".github/home-dark.png" alt="grepJobs directory — dark theme" width="800" />
 
 </div>
