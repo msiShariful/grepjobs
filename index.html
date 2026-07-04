@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KothayKaj — Bangladesh tech employer directory</title>
+  <meta name="description" content="A directory of software companies in Bangladesh: what they build, their tech stacks, career ladders and estimated salary bands." />
+  <script>
+    // Set theme before first paint to avoid a flash
+    (function () {
+      const fromUrl = new URLSearchParams(location.search).get("theme");
+      const saved = localStorage.getItem("kk-theme");
+      const preferred = fromUrl || saved || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+      document.documentElement.dataset.theme = preferred;
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Schibsted+Grotesk:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>৳</text></svg>" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#/" aria-label="KothayKaj home">
+        <span class="brand-mark" aria-hidden="true">৳</span>
+        <span class="brand-name">Kothay<em>Kaj</em></span>
+      </a>
+      <div class="topbar-actions">
+        <a class="topbar-link" href="#/compare" id="nav-compare">Compare</a>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Switch color theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.4M12 19.1v2.4M2.5 12h2.4M19.1 12h2.4M5 5l1.7 1.7M17.3 17.3 19 19M19 5l-1.7 1.7M6.7 17.3 5 19"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.4 14.2A8.5 8.5 0 0 1 9.8 3.6a8.5 8.5 0 1 0 10.6 10.6Z"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="app" class="app"></main>
+
+  <div class="compare-tray" id="compare-tray" hidden></div>
+
+  <footer class="footer">
+    <p>
+      <strong>KothayKaj</strong> — an open, editable directory of Bangladesh's software employers.
+      Companies are real; salary bands are <strong>community-reported estimates</strong> compiled from
+      Glassdoor, levels.fyi and public job postings (July 2026), <strong>not figures verified by the
+      companies</strong>. Each company page lists its sources. Edit <code>data.js</code> to update or correct.
+    </p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
