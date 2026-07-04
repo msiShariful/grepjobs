@@ -171,7 +171,7 @@ function listView() {
       </p>
       <div class="hero-stats">
         <span><strong>${totalEngineers}</strong> companies</span>
-        <span><strong>${ALL_AREAS.length}</strong> Dhaka areas</span>
+        <span><strong>${ALL_AREAS.length}</strong> areas</span>
         <span><strong>${ALL_TECH.length}</strong> technologies</span>
       </div>
       <div class="sample-banner" role="note">

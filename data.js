@@ -2841,6 +2841,554 @@ const COMPANIES = [
       "https://tahanima.github.io/salary-ranges-offered-by-bangladeshi-software-companies-for-different-positions/",
     ],
   },
+
+  {
+    id: "appscode",
+    name: "AppsCode",
+    bn: "অ্যাপসকোড",
+    tagline: "BD-founded Kubernetes company — KubeDB and friends, used by Fortune 100 firms, built largely from Dhaka.",
+    type: "Product",
+    city: "Dhaka",
+    area: "Dhaka",
+    founded: 2016,
+    employees: "~100",
+    engineers: "mostly engineers",
+    website: "https://appscode.com",
+    hue: 197,
+    tier: 2,
+    domains: ["Cloud-native infrastructure", "Kubernetes operators", "Open source", "Databases / DevOps"],
+    notable: [
+      "KubeDB — Kubernetes database operator used globally (Nokia, Orange, Fortune 100)",
+      "Stash/KubeStash, KubeVault, Voyager open-core products",
+      "Founded by Tamal Saha (BUET, ex-Google/Amazon); hires competitive programmers",
+    ],
+    about:
+      "AppsCode was founded in 2016 by Tamal Saha (BUET grad, ex-Google/Amazon) to build a Kubernetes-native data platform. Its open-core products — KubeDB, Stash/KubeStash, KubeVault, Voyager — are used worldwide, and the engineering is largely done from Dhaka in Go. Arguably the most globally visible open-source engineering brand in Bangladesh.",
+    stack: {
+      languages: ["Go", "Shell"],
+      frameworks: ["Kubernetes", "gRPC", "Prometheus"],
+      tools: ["Docker", "Helm", "GitHub open-source workflow"],
+    },
+    workStyle: {
+      mode: "Onsite",
+      notes:
+        "Dhaka office-based with global open-source collaboration and a US entity for 24×7 support. Glassdoor 4.3/5 (37 reviews), 79% recommend, comp 3.9/5 — great learning/growth, with high-turnover and micromanagement complaints in some reviews.",
+    },
+    verified: false,
+    levels: [
+      { key: "se1", title: "Associate Software Engineer", band: [20000, 30000], years: "0–2", scope: "Modest entry cash — the draw is Go/Kubernetes open-source résumé value.", source: "Community salary survey", confidence: "medium" },
+      { key: "se2", title: "Software Engineer", band: [50000, 70000], years: "2–4", scope: "Survey and Glassdoor's monthly estimate agree at this rung.", source: "Community survey + Glassdoor SE ~৳50K/mo base", confidence: "medium" },
+    ],
+    salaryNotes:
+      "Two credible levels; Glassdoor's yearly figure was a broken currency normalization and was discarded. Reviews call pay 'competitive for the local market' and always on time. No senior/lead/EM figures. Exact Dhaka neighborhood not published.",
+    sources: [
+      "https://appscode.com/about/",
+      "https://tahanima.github.io/salary-ranges-offered-by-bangladeshi-software-companies-for-different-positions/",
+      "https://www.glassdoor.com/Reviews/AppsCode-Reviews-E2216513.htm (via search snippets)",
+    ],
+  },
+
+  {
+    id: "neural-semi",
+    name: "Neural Semiconductor",
+    bn: "নিউরাল সেমিকন্ডাক্টর",
+    tagline: "DBL Group's VLSI design house in Uttara — the country's training ground for fresh chip designers.",
+    type: "Outsourcing",
+    city: "Dhaka",
+    area: "Uttara",
+    founded: 2017,
+    employees: "~158",
+    engineers: "100–150",
+    website: "https://www.neural-semiconductor.com",
+    hue: 268,
+    tier: 3,
+    domains: ["VLSI / chip design", "Analog & RF design", "Verification & DFT", "Embedded software"],
+    notable: [
+      "Full-service VLSI design center (analog, layout, verification, P&R, DFT)",
+      "DBL Group (RMG conglomerate) diversification into semiconductors",
+      "Widely seen as BD's fresh-graduate VLSI training pipeline",
+    ],
+    about:
+      "Neural Semiconductor, a concern of RMG giant DBL Group, entered VLSI design in 2017 and runs one of Bangladesh's few full-service chip-design centers from Uttara — analog/RF, layout, digital verification, physical design and DFT for global clients, plus an enterprise-software wing, with ~$6.5M revenue and ~158 staff.",
+    stack: {
+      languages: ["Verilog", "SystemVerilog", "Python", "Tcl"],
+      frameworks: ["UVM"],
+      tools: ["Industry-standard EDA flows (Cadence/Synopsys class)"],
+    },
+    workStyle: {
+      mode: "Onsite",
+      notes:
+        "Onsite at the Uttara design center; flexible hours, festival bonuses and strong learning for fresh grads per reviews — but low pay vs the global VLSI industry, weak benefits and no health insurance. Glassdoor 3.7/5 (31 reviews).",
+    },
+    verified: false,
+    levels: [
+      { key: "se1", title: "Engineer I", band: [35000, 45000], years: "0–2", scope: "Entry into analog/verification/DFT tracks.", source: "Community salary survey", confidence: "medium" },
+      { key: "se2", title: "Engineer II", band: [50000, 60000], years: "2–4", scope: "Software and analog tracks report the same band.", source: "Community survey (SE II & Analog II ৳50–60K)", confidence: "medium" },
+      { key: "senior", title: "Engineer III / Senior Engineer", band: [60000, 80000], years: "4–8", scope: "The best per-level data of any niche firm in this directory — six titles surveyed.", source: "Community survey (E-III / DFT-III ৳60–70K; Senior ৳70–80K)", confidence: "medium" },
+    ],
+    salaryNotes:
+      "Internally consistent survey data across six titles. No lead/EM figures. Reviews repeatedly flag pay as low relative to the VLSI industry — Tier 3 as an entry-volume training ground, despite senior bands touching ৳80K.",
+    sources: [
+      "https://tahanima.github.io/salary-ranges-offered-by-bangladeshi-software-companies-for-different-positions/",
+      "https://www.tbsnews.net/features/panorama/rmg-sector-giant-looking-turn-bangladesh-next-chip-making-hub-327595",
+      "https://www.neural-semiconductor.com/career",
+    ],
+  },
+
+  {
+    id: "inverse-ai",
+    name: "Inverse.AI",
+    bn: "ইনভার্স এআই",
+    tagline: "Sylhet's biggest product tech company — consumer media apps with huge global install bases.",
+    type: "Product",
+    city: "Sylhet",
+    area: "Sylhet",
+    founded: 2018,
+    employees: "~100",
+    engineers: "",
+    website: "https://inverseai.com",
+    hue: 33,
+    tier: 2,
+    domains: ["Consumer mobile apps", "Audio/video processing", "On-device AI/ML"],
+    notable: [
+      "Video Converter & Compressor (large global Play/App Store installs)",
+      "AI Audio/Video Noise Reducer",
+      "One of the few sizable product companies headquartered outside Dhaka",
+    ],
+    about:
+      "Founded in 2018 by Tahlil Ahmed Chowdhury and Ershadur Rahman Talukder, Inverse.AI grew to roughly 100 people in Sylhet on the strength of consumer media apps — video conversion/compression, AI noise reduction, photo/video editing — with FFmpeg-based pipelines and on-device ML. For engineers in Sylhet, it's the standout local product employer.",
+    stack: {
+      languages: ["Kotlin", "Java", "Swift", "Python"],
+      frameworks: ["Android SDK", "FFmpeg pipelines", "On-device ML"],
+      tools: ["Firebase", "Play/App Store publishing"],
+    },
+    workStyle: {
+      mode: "Onsite",
+      notes:
+        "Onsite in Sylhet Sadar. Glassdoor 3.0/5 (22 reviews), 61% recommend — reviews split between 'salary exceeds market average' and complaints of inconsistent pay across peers.",
+    },
+    verified: false,
+    levels: [
+      { key: "se2", title: "Mobile Application Developer", band: [50000, 100000], years: "0–4", scope: "From the company's own posting, which welcomed freshers — so it spans entry-to-mid and is recorded once.", source: "Company job posting (৳50–100K/mo)", confidence: "low" },
+    ],
+    salaryNotes:
+      "Thin data — one verifiable posted band, absent from the community survey, no senior/lead figures. Competitive for the Sylhet market (which trails Dhaka); Tier 2 on that basis.",
+    sources: [
+      "https://inverseai.com",
+      "https://bd.linkedin.com/company/inverse-ai",
+      "https://www.glassdoor.com/Reviews/Inverse-AI-Reviews-E3330882.htm (via search snippets)",
+    ],
+  },
+
+  {
+    id: "portonics",
+    name: "Portonics",
+    bn: "পোর্টোনিক্স",
+    tagline: "The team behind MyGP (30M+ users) and Robi/Airtel digital properties — 160M+ end users reached.",
+    type: "Outsourcing",
+    city: "Dhaka",
+    area: "Gulshan",
+    founded: 2007,
+    employees: "150+",
+    engineers: "",
+    website: "https://www.portonics.com",
+    hue: 115,
+    tier: 2,
+    domains: ["Telco digital platforms", "E-commerce", "Payments"],
+    notable: [
+      "MyGP self-care app (30M+ users) and My Telenor",
+      "Robi/Airtel digital properties",
+      "PortPos payment gateway; Singer|Beko e-commerce",
+    ],
+    about:
+      "Founded in 2007 by brothers Amir Dhedhi and Atif Sattar with its primary hub in Dhaka since 2011 (plus Bangkok and Washington D.C.), Portonics has shipped 110+ projects reaching 160M+ end users — anchored by telco self-care platforms like MyGP, large e-commerce builds and the PortPos gateway. A PHP/Laravel-centric shop with disciplined GitHub-PR engineering practice.",
+    stack: {
+      languages: ["PHP", "JavaScript", "SQL"],
+      frameworks: ["Laravel", "Symfony", "Node.js"],
+      tools: ["MySQL", "PostgreSQL", "Redis", "JIRA"],
+    },
+    workStyle: {
+      mode: "Onsite",
+      notes:
+        "Gulshan office-based. Glassdoor 4.0/5 (50 reviews) — on-time salary and industry-leading projects praised; immense work pressure and office politics cited as cons.",
+    },
+    verified: false,
+    levels: [
+      { key: "se1", title: "Trainee Software Engineer", band: [30000, 45000], years: "0–2", scope: "From the community survey.", source: "Community salary survey", confidence: "medium" },
+      { key: "se2", title: "Software Engineer", band: [50000, 55000], years: "2–4", scope: "Glassdoor annual figures converted; consistent with the trainee band below.", source: "Glassdoor (৳600–660K/yr ÷ 12)", confidence: "medium" },
+      { key: "senior", title: "Senior Software Engineer", band: [70000, 70000], years: "4–8", scope: "Single report (min=max); DevOps avg ~৳60K corroborates the range.", source: "Glassdoor single report (৳840K/yr ÷ 12)", confidence: "low" },
+    ],
+    salaryNotes:
+      "Glassdoor yearly figures divided by 12 land consistently in the ৳50–70K range. Team Lead roles exist in postings (7+ yrs) but with no disclosed salary — lead/EM omitted. A reliable mid-market payer with unusually large-scale projects.",
+    sources: [
+      "https://www.portonics.com/",
+      "https://www.glassdoor.com/Salary/Portonics-Dhaka-Salaries-EI_IE654269.0,9_IL.10,15_IM1237.htm (via search snippets)",
+      "https://tahanima.github.io/salary-ranges-offered-by-bangladeshi-software-companies-for-different-positions/",
+      "https://jobs.smartrecruiters.com/PortonicsLimited/743999966161201-senior-software-engineer-php-",
+    ],
+  },
+
+  {
+    id: "tallykhata",
+    name: "TallyKhata (Progoti Systems)",
+    bn: "ট্যালিখাতা",
+    tagline: "The #1 digital ledger for BD's shopkeepers — millions of merchants, TallyPay wallet, digital credit next.",
+    type: "Fintech",
+    city: "Dhaka",
+    area: "Banani",
+    founded: 2020,
+    employees: "~172",
+    engineers: "",
+    website: "https://www.tallykhata.com",
+    hue: 178,
+    tier: 2,
+    domains: ["Fintech", "SME digital ledger", "Payments", "Digital credit"],
+    notable: [
+      "Millions of registered shopkeepers; 1M+ monthly actives",
+      "TallyPay — Bangladesh Bank PSP-licensed wallet with NID e-KYC",
+      "Backed by Visa Accelerator and SC Ventures (Standard Chartered)",
+    ],
+    about:
+      "TallyKhata, built by Progoti Systems (a SureCash PTE subsidiary led by Dr. Shahadat Khan), launched in June 2020 as a free bookkeeping app for micro-merchants and became the country's #1 small-business digital platform. It pairs the ledger with the PSP-licensed TallyPay wallet and is expanding into digital credit. Engineering is native-Android-heavy (Java/Kotlin with C/C++ components).",
+    stack: {
+      languages: ["Java", "Kotlin", "C++"],
+      frameworks: ["Native Android SDK"],
+      tools: ["Firebase", "REST APIs"],
+    },
+    workStyle: {
+      mode: "Onsite",
+      notes:
+        "Banani office; two weekly holidays, subsidized lunch, mobile bill, two festival bonuses, yearly reviews. No publicly verifiable Glassdoor rating.",
+    },
+    verified: false,
+    levels: [
+      { key: "senior", title: "Senior Software Engineer", band: [65000, 200000], years: "4–8", scope: "An unusually wide Glassdoor range from few reports — the ৳200K top end fits a funded fintech but treat cautiously.", source: "Glassdoor (Progoti, Dhaka) monthly page via snippet", confidence: "low" },
+    ],
+    salaryNotes:
+      "Only one verifiable band; circulars list pay as 'negotiable'. No se1/se2/lead/EM data — omitted. The band's upper end is consistent with funded fintechs paying above the mid-market norm.",
+    sources: [
+      "https://www.tallykhata.com",
+      "https://www.glassdoor.com/Salary/Progoti-Bangladesh-Salaries-EI_IE1048496.0,7_IL.8,18_IN27.htm (via search snippets)",
+      "https://futurestartup.com/2022/09/12/tallykhata-eyes-its-next-evolution-building-digital-credit-solutions-for-small-businesses/",
+      "https://www.thedailystar.net/supplements/app-savvy-bangladesh/news/millions-shopkeepers-using-tallykhata-app-records-and-payments-3622596",
+    ],
+  },
+
+  {
+    id: "trucklagbe",
+    name: "Truck Lagbe",
+    bn: "ট্রাক লাগবে",
+    tagline: "Bangladesh's largest trucking marketplace — 80K registered trucks, IFC-led Series A.",
+    type: "Startup",
+    city: "Dhaka",
+    area: "Dhaka",
+    founded: 2017,
+    employees: "~186",
+    engineers: "",
+    website: "https://trucklagbe.com",
+    hue: 24,
+    tier: 3,
+    domains: ["Logistics", "Trucking marketplace", "Supply chain"],
+    notable: [
+      "~80,000 registered trucks, 500,000+ registered customers",
+      "$4M Series A (2021) led by IFC, co-led by IDLC VC — $5.9M total",
+      "Instant-bidding model for full-truckload bookings",
+    ],
+    about:
+      "Founded in July 2017 by Anayet Rashid and Mir Hossain Ekram with 25 trucks, Truck Lagbe grew into Bangladesh's largest trucking marketplace, matching shippers with truck owners through an instant-bidding app. Backend roles run Go/Node/Java with React Native apps.",
+    stack: {
+      languages: ["Go", "JavaScript", "Java"],
+      frameworks: ["Node.js", "React Native"],
+      tools: ["MySQL", "MongoDB", "Redis"],
+    },
+    workStyle: {
+      mode: "Onsite",
+      notes:
+        "Glassdoor 3.3/5 (~32 reviews) with comp & benefits at 2.7/5 — reviews say 'competitive per market' but rate pay as the weakest dimension.",
+    },
+    verified: false,
+    levels: [
+      { key: "se1", title: "Junior Software Engineer", band: [30001, 40000], years: "0–2", scope: "Below-average for Dhaka product startups, matching the weak comp rating.", source: "Community salary survey", confidence: "medium" },
+    ],
+    salaryNotes:
+      "One survey band; Glassdoor publishes no figures and senior JDs (4–5 yrs, Go/Node/Java) don't disclose pay. Junior datapoint + 2.7/5 comp rating suggests below the mid band — Tier 3. HQ area beyond 'Dhaka' unconfirmed.",
+    sources: [
+      "https://tahanima.github.io/salary-ranges-offered-by-bangladeshi-software-companies-for-different-positions/",
+      "https://futurestartup.com/2021/09/20/truck-lagbe-raises-4-million-series-a/",
+      "https://www.startupbangladesh.vc/portfolio/truck-lagbe/",
+    ],
+  },
+
+  {
+    id: "loop-freight",
+    name: "Loop Freight",
+    bn: "লুপ ফ্রেইট",
+    tagline: "Digital full-truckload freight network — ADB Ventures' first-ever Bangladesh investment.",
+    type: "Startup",
+    city: "Dhaka",
+    area: "Dhaka",
+    founded: 2018,
+    employees: "~56",
+    engineers: "",
+    website: "https://loopfreight.io",
+    hue: 242,
+    tier: 3,
+    domains: ["Freight / logistics", "B2B marketplace", "Supply chain"],
+    notable: [
+      "First Bangladeshi startup backed by ADB Ventures",
+      "First portfolio investment of Anchorless Bangladesh",
+      "Offices in Dhaka, Chattogram, Khulna and Singapore",
+    ],
+    about:
+      "Loop Freight (Loop Technologies), founded around 2018, matches full-truckload shipments from manufacturers and distributors with carriers to cut freight costs. Verified investors are ADB Ventures, Anchorless Bangladesh, Accelerating Asia and Startup Bangladesh (~$672K disclosed) — note that its often-repeated 'YC-backed' label could not be verified against the YC directory. Small seed-stage team; verify current status, as disclosed funding data ends in 2020.",
+    stack: {
+      languages: [],
+      frameworks: [],
+      tools: [],
+    },
+    workStyle: {
+      mode: "Onsite",
+      notes:
+        "Dhaka HQ with regional offices; no public remote policy and too few Glassdoor reviews for a rating.",
+    },
+    verified: false,
+    levels: [],
+    salaryNotes:
+      "No salary data anywhere public — small seed-stage team, so all levels omitted. Engineering stack also undocumented (site describes a 'web and mobile platform' only). Tier 3 reflects absence of evidence and early stage, not verified low pay.",
+    sources: [
+      "https://loopfreight.io/",
+      "https://ventures.adb.org/loop-technologies/",
+      "https://www.anchorless.vc/portfolio/loop",
+      "https://www.startupbangladesh.vc/portfolio/loop/",
+    ],
+  },
+
+  {
+    id: "arogga",
+    name: "Arogga",
+    bn: "আরোগ্য",
+    tagline: "BD's leading digital pharmacy — Forbes-profiled for fighting counterfeit medicine, $5.7M raised.",
+    type: "Startup",
+    city: "Dhaka",
+    area: "Dhaka",
+    founded: 2020,
+    employees: "~200",
+    engineers: "",
+    website: "https://www.arogga.com",
+    hue: 138,
+    tier: 3,
+    domains: ["HealthTech", "E-pharmacy", "Last-mile delivery"],
+    notable: [
+      "$5.5M seed (2023) led by The Venture Collective — among BD's larger healthtech rounds",
+      "Forbes-profiled (2024) for fighting counterfeit medicines",
+      "Verge HealthTech Fund investment (2026) signals continued growth",
+    ],
+    about:
+      "Founded in 2020 by Rosina Mazumder, Shamim Hasan, Yawar Mehboob and Fahad Hossain, Arogga is Bangladesh's leading digital pharmacy, delivering authentic medicine and health products nationwide. It has raised ~$5.7M and is expanding from e-pharmacy into broader digital healthcare, with an in-house team hiring senior React Native engineers for the consumer app.",
+    stack: {
+      languages: ["JavaScript"],
+      frameworks: ["React Native"],
+      tools: [],
+    },
+    workStyle: {
+      mode: "Onsite",
+      notes:
+        "Postings specify full-time, 5 days/week, 9–6 in Dhaka. A Glassdoor page exists (~13 salary reports) but figures weren't retrievable.",
+    },
+    verified: false,
+    levels: [],
+    salaryNotes:
+      "No verifiable per-level figures: Glassdoor data was inaccessible, job posts don't state pay, and it's absent from the community survey. Funding level and senior hiring suggest mid-band pay is plausible, but Tier 3 is assigned pending actual evidence — upgrade if figures surface.",
+    sources: [
+      "https://www.arogga.com/jobs/22",
+      "https://www.forbes.com/sites/geristengel/2024/08/21/digital-rx-arogga-fights-counterfeit-meds-in-bangladesh/",
+      "https://futurestartup.com/2021/06/20/arogga-started-as-a-digital-pharmacy-aims-to-go-deeper-into-digital-healthcare-in-bangladesh/",
+      "https://www.glassdoor.com/Salary/Arogga-Dhaka-Salaries-EI_IE7124002.0,6_IL.7,12_IM1237.htm (inaccessible)",
+    ],
+  },
+
+  {
+    id: "reddot",
+    name: "RedDot Digital",
+    bn: "রেডডট ডিজিটাল",
+    tagline: "Robi Axiata's 100%-owned IT subsidiary — built and runs the Binge OTT platform.",
+    type: "Product",
+    city: "Dhaka",
+    area: "Gulshan",
+    founded: 2019,
+    employees: "",
+    engineers: "",
+    website: "https://www.reddotdigitalit.com",
+    hue: 2,
+    tier: 2,
+    domains: ["OTT streaming", "Enterprise software", "Cloud & DevOps", "Fintech platforms"],
+    notable: [
+      "Binge — Robi's OTT streaming platform (launched May 2020)",
+      "Enterprise HRMS and sales & distribution platforms for Robi and external clients",
+      "Facility planned at Bangabandhu Hi-Tech Park",
+    ],
+    about:
+      "Founded in 2019 as Red.Digital Limited, Robi Axiata's wholly owned digital subsidiary now operates as RedDot Digital Limited. It launched Robi's Binge OTT platform in May 2020 (now maintained with Genex Infosys) and delivers enterprise software, cloud/DevOps, fintech and IoT work from the Robi corporate campus. The Red.Digital → RedDot renaming is well-supported across its site, LinkedIn and Wikipedia but not documented in a single official source.",
+    stack: {
+      languages: [],
+      frameworks: [],
+      tools: ["Cloud / DevOps tooling", "Streaming infrastructure (Wowza in early Binge)", "RPA platforms"],
+    },
+    workStyle: {
+      mode: "Onsite",
+      notes: "Telecom-subsidiary corporate environment; postings are Dhaka office-based. No explicit remote policy found.",
+    },
+    verified: false,
+    levels: [
+      { key: "se1", title: "Software Engineer", band: [40000, 50000], years: "0–2", scope: "Survey band corroborated by parent Robi's Glassdoor developer average (~৳39.7K).", source: "Community survey (৳40–50K; interns ৳10K fixed) + Robi Glassdoor corroboration", confidence: "medium" },
+    ],
+    salaryNotes:
+      "Only entry-level data exists publicly; se2/senior/lead/EM omitted. Headcount not disclosed. Binge attribution is confirmed; MyRobi attribution could not be verified and is not claimed.",
+    sources: [
+      "https://www.reddotdigitalit.com/",
+      "https://tahanima.github.io/salary-ranges-offered-by-bangladeshi-software-companies-for-different-positions/",
+      "https://www.thedailystar.net/business/news/robi-subsidiary-brings-the-future-video-entertainment-bangladesh-1904284",
+      "https://en.wikipedia.org/wiki/Robi_(company)",
+    ],
+  },
+
+  {
+    id: "astha-it",
+    name: "Astha IT (AIT)",
+    bn: "আস্থা আইটি",
+    tagline: "Three-time national top software exporter, rebranding as AIT — offshore teams for US clients since 2008.",
+    type: "Outsourcing",
+    city: "Dhaka",
+    area: "Dhaka",
+    founded: 2008,
+    employees: "200+",
+    engineers: "200+ (claimed)",
+    website: "https://www.asthait.com",
+    hue: 110,
+    tier: 2,
+    domains: ["Offshore staff augmentation", "Custom software", "AI/ML & data science", "Cloud (AWS partner)"],
+    notable: [
+      "Government of Bangladesh top software exporter award (2013, 2014, 2020)",
+      "Long-running offshore extension teams for US brands",
+      "CodeCamp bootcamp + AIT Ascend internship pipeline; Sweden subsidiary as EU base",
+    ],
+    about:
+      "Founded in 2008 in Dhaka, Astha IT builds systems for startups, enterprises and governments, with a core model of pre-vetted offshore engineers working as remote extensions of overseas (largely US) teams. ISO 9001/27001 certified and a three-time national top software exporter, it is rebranding as 'AIT' with claimed offices in New York, Texas, California and Australia and an AI/data/cloud pitch.",
+    stack: {
+      languages: ["JavaScript", "Python", "Dart"],
+      frameworks: ["Flutter"],
+      tools: ["AWS", "Azure"],
+    },
+    workStyle: {
+      mode: "Hybrid",
+      notes:
+        "Dhaka office with a remote-extension client model; Glassdoor work-life balance 3.9/5, comp 4.0/5, 85% recommend. Explicit remote policy not published.",
+    },
+    verified: false,
+    levels: [
+      { key: "se1", title: "Software Engineer I", band: [20000, 35000], years: "0–2", scope: "Survey and Glassdoor's range floor agree; a Flutter posting offered ৳35–45K.", source: "Community survey (SE-I ৳20–30K) + Glassdoor low end + posting", confidence: "medium" },
+      { key: "se2", title: "Software Engineer II", band: [40000, 60000], years: "2–4", scope: "Best-documented rung — survey and Glassdoor's 15-report center agree.", source: "Community survey (৳40–55K) + Glassdoor typical ~৳45K/mo", confidence: "medium" },
+      { key: "senior", title: "Senior Software Engineer", band: [70000, 120000], years: "4–8", scope: "Anchored on the company's own posted 3–5yr range — may straddle mid/senior.", source: "Astha IT career page ৳70–120K/mo (via snippet) + Glassdoor top end", confidence: "medium" },
+    ],
+    salaryNotes:
+      "The best-documented company of this round: three corroborated bands. A Glassdoor review claim of '$55–65k/year' failed the BD sanity check (likely client billing) and was discarded. Lead/EM unknown. Exact Dhaka neighborhood not published.",
+    sources: [
+      "https://www.asthait.com/history/",
+      "https://www.asthait.com/career/",
+      "https://www.glassdoor.co.in/Salary/Astha-IT-Software-Engineer-Salaries-EJI_IE4383175.0,8_KO9,26_IM1237.htm (via search snippets)",
+      "https://tahanima.github.io/salary-ranges-offered-by-bangladeshi-software-companies-for-different-positions/",
+    ],
+  },
+
+  {
+    id: "w3engineers",
+    name: "W3 Engineers",
+    bn: "ডব্লিউথ্রি ইঞ্জিনিয়ার্স",
+    tagline: "Khulna-born tech lab behind Telemesh — UNICEF-funded mesh messaging for refugee camps.",
+    type: "Outsourcing",
+    city: "Dhaka",
+    area: "Banani",
+    founded: 2009,
+    employees: "",
+    engineers: "",
+    website: "https://w3engineers.com",
+    hue: 88,
+    tier: 3,
+    domains: ["Offshore development", "AI/ML pipelines", "Mesh networking / blockchain", "IoT & RPA"],
+    notable: [
+      "Telemesh — UNICEF Innovation Fund-backed open-source mesh messaging",
+      "ML image-labeling and deduplication pipelines for overseas clients",
+      "Started in Khulna (2009), Dhaka office since 2015",
+    ],
+    about:
+      "Started in Khulna in 2009 and expanded to Dhaka in 2015, W3 Engineers is a technology lab and offshore provider spanning AI/ML, blockchain, mesh networking, IoT and RPA. Its best-known work is Telemesh, an open-source mobile mesh messaging platform funded by the UNICEF Innovation Fund for connectivity in refugee camps. Reviews praise the learning environment but flag pay and management.",
+    stack: {
+      languages: ["Go", "JavaScript", "Python"],
+      frameworks: ["React", "Vue.js"],
+      tools: ["AWS", "CI/CD", "NoSQL & RDBMS"],
+    },
+    workStyle: {
+      mode: "Onsite",
+      notes:
+        "Postings state 'work at office', full-time in Dhaka; medical allowance, two festival bonuses, insurance, subsidized lunch. Glassdoor 3.0/5 (58 reviews), 46% recommend.",
+    },
+    verified: false,
+    levels: [],
+    salaryNotes:
+      "No verifiable numeric bands: postings say 'negotiable', Glassdoor's 154 salary reports weren't retrievable via snippets, and it's absent from the community survey. Qualitative signal is negative (comp 2.8/5, 'bad salary range' reviews) — Tier 3 on that basis, levels left empty.",
+    sources: [
+      "https://w3engineers.com/",
+      "https://w3engineers.com/job/software-engineer/",
+      "https://www.glassdoor.com/Reviews/W3-Engineers-Reviews-E3438225.htm (via search snippets)",
+      "https://www.devex.com/organizations/w3-engineers-121895",
+    ],
+  },
+
+  {
+    id: "bitmascot",
+    name: "Bit Mascot",
+    bn: "বিট মাসকট",
+    tagline: "White-label offshore partner to overseas digital agencies since 2006 — pay runs well below market.",
+    type: "Outsourcing",
+    city: "Dhaka",
+    area: "Mohakhali",
+    founded: 2006,
+    employees: "~100–200",
+    engineers: "",
+    website: "https://www.bitmascot.com",
+    hue: 222,
+    tier: 3,
+    domains: ["Custom software", "Web & mobile", "BPO", "Hosting & IT management"],
+    notable: [
+      "White-label delivery for digital agencies worldwide",
+      "Custom business-management platforms and CMS builds",
+    ],
+    about:
+      "Founded in 2006 in Mohakhali DOHS, Bit Mascot provides custom software, web/mobile development, digital strategy, hosting and BPO — largely as a white-label offshore partner to overseas digital agencies. (A sometimes-claimed Microsoft Dynamics specialization could not be verified in any public source and is not asserted here.) Glassdoor sentiment is weak, with pay and work-life balance the main complaints.",
+    stack: {
+      languages: [],
+      frameworks: [],
+      tools: ["CMS platforms", "Hosting / IT management stack"],
+    },
+    workStyle: {
+      mode: "Hybrid",
+      notes:
+        "Reviews mention remote options but also heavy workload and rigid policies — work-life balance rated 1.9/5; only 24% would recommend.",
+    },
+    verified: false,
+    levels: [
+      { key: "se1", title: "Software Engineer (entry)", band: [25000, 40000], years: "0–2", scope: "Survey and Glassdoor's typical figure agree on a below-market entry band.", source: "Community survey (৳30–40K) + Glassdoor typical ৳27.5K/mo", confidence: "medium" },
+      { key: "se2", title: "Software Engineer", band: [35000, 55000], years: "2–4", scope: "Upper portion of Glassdoor's range; Dhaka's SE average runs 63% above this company's typical.", source: "Glassdoor SE monthly range (floor excluded as intern pay)", confidence: "low" },
+    ],
+    salaryNotes:
+      "Evidence points clearly below market: typical SE ৳27.5K vs the ৳45K Dhaka average, comp rating 2.4/5 and trending down. Senior pages exist on Glassdoor without retrievable figures — senior/lead/EM omitted.",
+    sources: [
+      "https://www.bitmascot.com/about-us/",
+      "https://clutch.co/profile/bit-mascot",
+      "https://www.glassdoor.sg/Monthly-Pay/Bit-Mascot-Software-Engineer-Dhaka-Monthly-Pay-EJI_IE1911356.0,10_KO11,28_IL.29,34_IS3812.htm (via search snippets)",
+      "https://tahanima.github.io/salary-ranges-offered-by-bangladeshi-software-companies-for-different-positions/",
+    ],
+  },
 ];
 
 /* Convenience exports used by app.js */
