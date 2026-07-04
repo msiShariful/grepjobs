@@ -3389,6 +3389,712 @@ const COMPANIES = [
       "https://tahanima.github.io/salary-ranges-offered-by-bangladeshi-software-companies-for-different-positions/",
     ],
   },
+
+  {
+    id: "mpower",
+    name: "mPower Social Enterprises",
+    bn: "এমপাওয়ার",
+    tagline: "Harvard/MIT-founded ICT4D firm — 300+ digital health & agri systems across 17 countries.",
+    type: "Outsourcing",
+    city: "Dhaka",
+    area: "Banani",
+    founded: 2008,
+    employees: "~150",
+    engineers: "",
+    website: "https://mpower-social.com",
+    hue: 118,
+    tier: 3,
+    domains: ["Digital health (mHealth)", "Agri-tech advisory", "GovTech / NGO systems", "M&E dashboards"],
+    notable: [
+      "mTika & mCare — national vaccination/MNCH tracking on OpenSRP",
+      "GeoPotato — potato late-blight alert system",
+      "DHIS2/OpenSRP implementations for WHO, UNICEF and the BD government",
+    ],
+    about:
+      "Founded in 2008 by Harvard/MIT graduate students, mPower designs and deploys ICT solutions for the development sector — 300+ solutions across 17 Global South countries, including national digital-health tooling in Bangladesh (with BRAC, WHO, UNICEF) and agri platforms like GeoPotato and Shufola. A rare employer where open-source health standards (DHIS2, OpenSRP, OpenMRS) are the day job, alongside a modern Node/TypeScript/K8s/GCP stack.",
+    stack: {
+      languages: ["TypeScript", "Java", "SQL"],
+      frameworks: ["Node.js", "DHIS2", "OpenSRP", "OpenMRS"],
+      tools: ["PostgreSQL", "Docker", "Kubernetes", "GCP"],
+    },
+    workStyle: {
+      mode: "Onsite",
+      notes:
+        "Banani head office with occasional project field visits; flexible hours, subsidized lunch, festival bonuses and employer-paid income tax reported.",
+    },
+    verified: false,
+    levels: [
+      { key: "se1", title: "Software Engineer", band: [29000, 40000], years: "0–2", scope: "Entry cash below the Dhaka average — offset by strong non-cash benefits and mission-driven work.", source: "Glassdoor (SE salaries, BD; comp 3.5/5 across 59 reports)", confidence: "medium" },
+    ],
+    salaryNotes:
+      "Only entry-level data is public; a Dec 2024 backend circular (Node/TypeScript) listed pay as 'negotiable'. No senior/lead/EM data — omitted. Development-sector cash pay trails market; benefits partially compensate.",
+    sources: [
+      "https://mpower-social.com/about-us/",
+      "https://www.glassdoor.com/Salary/mPower-Social-Enterprises-Bangladesh-Salaries-EI_IE992308.0,25_IL.26,36_IN27.htm (via search snippets)",
+      "https://hotjobs.bdjobs.com/jobs/mpower/mpower206.htm",
+    ],
+  },
+
+  {
+    id: "doctime",
+    name: "DocTime",
+    bn: "ডকটাইম",
+    tagline: "BD's leading telemedicine app — 24/7 video consultations, e-prescriptions, 460K+ users.",
+    type: "Startup",
+    city: "Dhaka",
+    area: "Dhaka",
+    founded: 2020,
+    employees: "~85",
+    engineers: "~25",
+    website: "https://doctime.com.bd",
+    hue: 168,
+    tier: 3,
+    domains: ["Telemedicine", "E-prescriptions / EHR", "Corporate health benefits"],
+    notable: [
+      "24/7 video consultations averaging under 10 minutes to connect",
+      "460K+ registered users, 3,000 registered doctors (2022)",
+      "DocTime for Business — B2B corporate healthcare",
+    ],
+    about:
+      "Built from 2018 and launched mid-2020 during the pandemic by Anowar Hossain, DocTime is Bangladesh's leading telemedicine platform — instant video consultations, e-prescriptions and health records, plus medicine delivery and diagnostics integrations and a B2B corporate product. Funding status is ambiguous across sources (~$2M reported vs 'unfunded' per Tracxn).",
+    stack: {
+      languages: ["TypeScript (inferred)"],
+      frameworks: ["React (inferred)", "Android/iOS apps"],
+      tools: ["AWS (inferred)"],
+    },
+    workStyle: {
+      mode: "Onsite",
+      notes:
+        "Dhaka-based lean startup; founder interviews emphasize small-team quality. Work mode not formally documented.",
+    },
+    verified: false,
+    levels: [],
+    salaryNotes:
+      "No engineer salary data anywhere public; the community survey lists only a Data Analyst at ৳20–30K. Levels left empty. Stack items are inferred from the VP of Engineering's public JS/Node/AWS technical writing, not job postings — low confidence.",
+    sources: [
+      "https://doctime.com.bd/about-us",
+      "https://futurestartup.com/2022/06/28/anowar-hossain-doctime-building-a-digital-health-product-and-entrepreneurship-part-i/",
+      "https://tahanima.github.io/salary-ranges-offered-by-bangladeshi-software-companies-for-different-positions/",
+    ],
+  },
+
+  {
+    id: "priyoshop",
+    name: "PriyoShop",
+    bn: "প্রিয়শপ",
+    tagline: "B2B retail marketplace with embedded finance — 200K MSME retailers, $5M pre-Series A.",
+    type: "Startup",
+    city: "Dhaka",
+    area: "Dhaka",
+    founded: 2013,
+    employees: "1,600+ (mostly ops)",
+    engineers: "",
+    website: "https://priyoshop.com",
+    hue: 98,
+    tier: 2,
+    domains: ["B2B commerce", "Embedded finance / MSME credit", "Distribution logistics"],
+    notable: [
+      "~200,000 MSME retailers via 40 hubs across 16 districts",
+      "$5M pre-Series A (Feb 2024) anchored by Century Oak Ventures",
+      "Pivoted from B2C e-commerce (2013) to B2B supply chain",
+    ],
+    about:
+      "Founded in 2013 by Asikul Alam Khan as a B2C e-commerce site, PriyoShop pivoted into a B2B MSME supply-chain marketplace with embedded retailer credit, now serving roughly 200,000 shops through a hub-and-route network. The 1,600+ headcount is overwhelmingly field logistics; the tech team is a small fraction of it.",
+    stack: {
+      languages: [],
+      frameworks: [],
+      tools: [],
+    },
+    workStyle: {
+      mode: "Onsite",
+      notes:
+        "Dhaka HQ plus field hubs. Glassdoor (15 reviews): 82% would recommend, compensation rated 3.9/5 — strong for its stage.",
+    },
+    verified: false,
+    levels: [],
+    salaryNotes:
+      "No engineer-level figures surfaced from Glassdoor's 16 reports, BdJobs or the community survey — levels empty. The 3.9/5 comp rating and fresh funding suggest mid-market pay; Tier 2 is tentative. Current B2B stack is unverified (the legacy B2C site ran nopCommerce/.NET) and left blank rather than guessed.",
+    sources: [
+      "https://priyoshop.com/",
+      "https://www.dealstreetasia.com/stories/priyoshop-secures-pre-series-a-384189",
+      "https://www.glassdoor.com/Reviews/PriyoShop-Reviews-E5221209.htm (via search snippets)",
+    ],
+  },
+
+  {
+    id: "ssdtech",
+    name: "SSD-Tech",
+    bn: "এসএসডি-টেক",
+    tagline: "Carrier-grade telco VAS & charging platforms reaching 400M+ subscribers in 10+ countries.",
+    type: "Product",
+    city: "Dhaka",
+    area: "Gulshan",
+    founded: 2004,
+    employees: "~250–650",
+    engineers: "",
+    website: "https://ssd-tech.io",
+    hue: 258,
+    tier: 2,
+    domains: ["Telco VAS & charging", "Messaging / IVR platforms", "ISP (Carnival Internet)"],
+    notable: [
+      "Service Delivery Platform & Diameter charging gateway for ~15 operators",
+      "SMS/USSD and consent gateways reaching 400M+ subscribers",
+      "Group runs Carnival Internet (fiber ISP); subsidiaries in Malaysia & UK",
+    ],
+    about:
+      "Incorporated in 2004, SSD-Tech builds and operates carrier-grade value-added-service and charging infrastructure — SDP, SMS/USSD gateways, Diameter charging, IVR — powering operators across Asia-Pacific and Africa, with presence claimed in 17 countries. One of the few BD companies doing telecom-protocol systems engineering (SIP, BICC, Diameter, SMPP) rather than web work.",
+    stack: {
+      languages: ["Java (inferred for carrier platforms)", "SQL"],
+      frameworks: ["SIP / Diameter / SMPP / USSD protocol stacks"],
+      tools: ["Linux infrastructure", "Operator CBS/IN integrations"],
+    },
+    workStyle: {
+      mode: "Onsite",
+      notes:
+        "Gulshan office. Glassdoor 3.6/5 (58 reviews), 69% recommend — a good career starter with deadline pressure and 3.1/5 work-life balance.",
+    },
+    verified: false,
+    levels: [],
+    salaryNotes:
+      "No per-level BDT figures retrievable from Glassdoor snippets, BdJobs or the community survey — levels empty. Comp rated 3.6/5, consistent with mid-market established-firm pay (Tier 2 tentative). Stack inferred from the company's own platform descriptions. Headcounts vary wildly across sources (141–1,800) because the group includes the ISP subsidiary.",
+    sources: [
+      "https://ssd-tech.io/",
+      "https://www.glassdoor.com/Reviews/Systems-Solutions-and-Development-Technologies-Reviews-E501481.htm (via search snippets)",
+      "https://www.thedailystar.net/business/news/local-tech-company-gaining-foothold-global-markets-1709803",
+    ],
+  },
+
+  {
+    id: "shikho",
+    name: "Shikho",
+    bn: "শিখো",
+    tagline: "One of BD's best-funded edtechs (~$7M) — Bangla NCTB-curriculum learning for 3M+ students.",
+    type: "Startup",
+    city: "Dhaka",
+    area: "Dhaka",
+    founded: 2019,
+    employees: "~450",
+    engineers: "~40",
+    website: "https://shikho.com",
+    hue: 62,
+    tier: 2,
+    domains: ["EdTech", "Video learning content", "AI-powered learning"],
+    notable: [
+      "~$7M raised (Learn Capital, Wavemaker, Anchorless…) — Forbes Asia 100 to Watch 2022",
+      "Animated Bangla lessons aligned to the national curriculum, 3M+ students claimed",
+      "Acquired coding-education platform Mainly Coding",
+    ],
+    about:
+      "Founded in 2019 by Shahir Chowdhury (ex-HSBC/Barclays) and Zeeshan Zakaria, Shikho delivers animated video lessons, livestream classes and test prep in Bangla for grades 9–12 and admission prep, with a Django/Flutter/React stack on AWS. Among the best-funded edtechs in the country, with a later strategic investment from Startup Bangladesh for AI-powered learning.",
+    stack: {
+      languages: ["Python", "Dart", "TypeScript"],
+      frameworks: ["Django", "Flutter", "Next.js"],
+      tools: ["AWS", "PostgreSQL", "Redis", "Firebase"],
+    },
+    workStyle: {
+      mode: "Onsite",
+      notes: "Primarily onsite across Dhaka offices (plus Jashore); Glassdoor comp & benefits rated 3.5/5.",
+    },
+    verified: false,
+    levels: [],
+    salaryNotes:
+      "Glassdoor holds 70 salary entries but all behind login; the only visible snippet (~৳24–26K/mo) is likely junior/non-engineering, and the community survey lists only a Junior SQA at ৳20–30K. No engineering bands are asserted — market-extrapolated figures were deliberately excluded. Tier 2 rests on funding, scale and the 3.5/5 comp rating.",
+    sources: [
+      "https://techcrunch.com/2021/07/27/shikho-an-edtech-startup-focused-on-bangladeshs-students-gets-1-3m-seed/",
+      "https://restofworld.org/2022/meet-the-edtech-founder-who-wants-to-democratize-quality-education-for-the-masses/",
+      "https://www.glassdoor.com/Salary/Shikho-Dhaka-Salaries-EI_IE6295447.0,6_IL.7,12_IS3812.htm (login-gated)",
+      "https://tahanima.github.io/salary-ranges-offered-by-bangladeshi-software-companies-for-different-positions/",
+    ],
+  },
+
+  {
+    id: "cmed",
+    name: "CMED Health",
+    bn: "সিমেড হেলথ",
+    tagline: "UIU-born preventive-health IoT/AI platform — 3M+ lives impacted via connected devices & health workers.",
+    type: "Startup",
+    city: "Dhaka",
+    area: "Mohakhali",
+    founded: 2016,
+    employees: "~60 core",
+    engineers: "",
+    website: "https://cmed.com.bd",
+    hue: 182,
+    tier: 3,
+    domains: ["HealthTech", "IoT medical devices", "AI risk prediction", "Rural health platforms"],
+    notable: [
+      "Spun out of UIU's AIMS Lab; TAG Heuer Prize at Seedstars 2018, APICTA 2019 Merit",
+      "3M+ lives impacted, 450K+ rural families, 3K+ female health workers",
+      "Corporate wellness line serving 40+ factories",
+    ],
+    about:
+      "Founded in 2016 by Prof. Khondaker Abdullah Al Mamun (UIU) with co-founders from the AIMS Lab, CMED pairs IoT-enabled vitals devices with a cloud platform that tracks health trends and predicts risks, powering 'health accounts' for rural households and corporate wellness. Engineering is Flutter/Android with a Python ML layer.",
+    stack: {
+      languages: ["Dart", "Kotlin", "Python"],
+      frameworks: ["Flutter", "REST APIs"],
+      tools: ["Firebase", "Cloud IoT platform"],
+    },
+    workStyle: {
+      mode: "Onsite",
+      notes:
+        "Onsite at New DOHS Mohakhali. Glassdoor 2.6/5 (26 reviews), comp 2.2/5 — reviews cite raises/bonuses paid months late, though base salary is on time and beginners learn a lot.",
+    },
+    verified: false,
+    levels: [
+      { key: "se1", title: "Software Engineer (Android/Flutter)", band: [33000, 45000], years: "0–2", scope: "From the Android SE figure and the company-wide range; a lone ৳130K SE report was excluded as an unexplained outlier.", source: "Glassdoor Android SE ৳42–45K/mo + company range ~৳33–36K/mo", confidence: "medium" },
+    ],
+    salaryNotes:
+      "Only the junior band is evidence-backed; a single ৳130K/mo SE report exists but can't be level-attributed and was excluded rather than mapped to senior. The 2.2/5 comp rating and delayed-increment reviews support Tier 3.",
+    sources: [
+      "https://cmed.com.bd/about-us/",
+      "https://iriic.uiu.ac.bd/cmed/",
+      "https://www.glassdoor.com/Salary/CMED-Health-Dhaka-Salaries-EI_IE2501978.0,11_IL.12,17_IC2267834.htm (via search snippets)",
+    ],
+  },
+
+  {
+    id: "ecourier",
+    name: "eCourier",
+    bn: "ইকুরিয়ার",
+    tagline: "Digital logistics pioneer — ~30K daily orders across all 64 districts for Daraz, foodpanda and Square.",
+    type: "Startup",
+    city: "Dhaka",
+    area: "Badda",
+    founded: 2014,
+    employees: "~120 corporate",
+    engineers: "",
+    website: "https://ecourier.com.bd",
+    hue: 148,
+    tier: 3,
+    domains: ["Logistics tech", "Merchant APIs", "Warehousing / fulfillment"],
+    notable: [
+      "~30,000+ daily orders, 64-district coverage, 25,000+ merchants",
+      "Merchant API and dashboards used by Daraz, foodpanda, Square, Banglalink",
+      "OTP delivery confirmation and QR/SMS real-time tracking",
+    ],
+    about:
+      "Founded in 2014 by Biplob Ghosh Rahul, eCourier evolved from an IT firm into one of Bangladesh's first digital logistics companies, with a public merchant API, real-time tracking and warehouse services. Corporate staff of ~120 sits atop a 1,000+ delivery-agent network.",
+    stack: {
+      languages: ["PHP (inferred)", "JavaScript (inferred)"],
+      frameworks: ["REST APIs (public merchant API confirmed)"],
+      tools: ["bKash integration (confirmed)", "SMS/QR tracking"],
+    },
+    workStyle: {
+      mode: "Onsite",
+      notes: "Onsite, operations-heavy culture at the Badda/Gulshan HQ. Glassdoor page exists but exposes no rating or figures.",
+    },
+    verified: false,
+    levels: [],
+    salaryNotes:
+      "Zero engineering pay evidence anywhere public — BdJobs listings showed only non-tech roles. Levels empty; stack largely inferred except the public API and bKash integration. Tier 3 pending real data.",
+    sources: [
+      "https://ecourier.com.bd/",
+      "https://www.tbsnews.net/supplement/ecourier-journey-it-firm-turning-digital-logistics-company-578618",
+      "https://futurestartup.com/2016/04/30/q-a-with-biplob-g-rahul-ceo-of-ecourier/",
+    ],
+  },
+
+  {
+    id: "jatri",
+    name: "Jatri",
+    bn: "যাত্রী",
+    tagline: "BD's first bus-tracking & digital ticketing platform — $5.25M raised, SaaS expanding to the Middle East.",
+    type: "Startup",
+    city: "Dhaka",
+    area: "Gulshan",
+    founded: 2019,
+    employees: "~82",
+    engineers: "~20",
+    website: "https://jatri.co",
+    hue: 228,
+    tier: 2,
+    domains: ["Mobility / transit tech", "Digital ticketing", "B2B SaaS for operators"],
+    notable: [
+      "First bus tracking + digital ticketing platform in Bangladesh",
+      "~$5.25M over 5 rounds; founder Aziz Arman is Forbes 30 Under 30 Asia",
+      "Operator-SaaS expansion toward the Middle East (Genting Ventures-backed)",
+    ],
+    about:
+      "Founded in early 2019 by Aziz Arman, Khondoker Taswar Zahin and Zia Ahmed, Jatri digitizes public transport — real-time bus tracking, digital tickets, launch tickets and car rentals — plus a B2B SaaS platform for transport operators that it is taking to the Middle East. Consumer apps are Flutter with Maps/GPS integrations.",
+    stack: {
+      languages: ["Dart", "JavaScript"],
+      frameworks: ["Flutter", "Laravel/Node.js (inferred)"],
+      tools: ["Firebase", "Google Maps APIs"],
+    },
+    workStyle: {
+      mode: "Onsite",
+      notes: "Onsite at Gulshan-2 HQ. Glassdoor 3.1/5 (26 reviews).",
+    },
+    verified: false,
+    levels: [
+      { key: "se2", title: "Software / Frontend Engineer", band: [62000, 67000], years: "2–4", scope: "The one solid datapoint — squarely mid-market for a funded Series-A startup.", source: "Glassdoor Dhaka frontend-engineer page lists Jatri at ৳62–67K/mo", confidence: "medium" },
+    ],
+    salaryNotes:
+      "One evidence-backed band; junior and senior figures were market extrapolations and are deliberately excluded. Not in the community survey. Backend stack partially inferred.",
+    sources: [
+      "https://jatri.co/",
+      "https://www.tbsnews.net/dropped/startups/mass-transport-startup-jatri-raises-12m-expand-operation-301750",
+      "https://www.glassdoor.com/Salaries/dhaka-frontend-engineer-salary-SRCH_IL.0,5_IM1237_KO6,23.htm (via search snippets)",
+    ],
+  },
+
+  {
+    id: "wedevs",
+    name: "weDevs",
+    bn: "উইডেভস",
+    tagline: "Makers of Dokan — the world's #1 WooCommerce multivendor plugin — 520K+ users globally.",
+    type: "Product",
+    city: "Dhaka",
+    area: "Dhaka",
+    founded: 2012,
+    employees: "50+",
+    engineers: "~35",
+    website: "https://wedevs.com",
+    hue: 208,
+    tier: 2,
+    domains: ["WordPress plugins", "WooCommerce / e-commerce", "SaaS"],
+    notable: [
+      "Dokan Multivendor — 70K+ active installs, the leading WP marketplace plugin",
+      "WP ERP, WP User Frontend, weMail, Appsero",
+      "FlyWP server-management SaaS (2023)",
+    ],
+    about:
+      "Started as a blog in 2008 and incorporated in Dhaka in May 2012, weDevs is Bangladesh's best-known WordPress product company, serving 520,000+ users worldwide with Dokan at the front. Note: the widely-repeated claim that Awesome Motive acquired weDevs in 2022 could not be verified — no announcement exists and weDevs operates and sponsors WordCamps under its own brand.",
+    stack: {
+      languages: ["PHP", "JavaScript"],
+      frameworks: ["WordPress/WooCommerce APIs", "Vue.js", "React", "Laravel"],
+      tools: ["MySQL", "GitHub", "PHPUnit", "Docker"],
+    },
+    workStyle: {
+      mode: "Onsite",
+      notes: "Dhaka HQ with office-based product teams; some remote-friendly practice but core engineering is onsite.",
+    },
+    verified: false,
+    levels: [
+      { key: "se1", title: "Software Engineer", band: [38000, 55000], years: "0–2", scope: "From a 2-submission Glassdoor sample — thin.", source: "Glassdoor Dhaka (৳455–831K/yr ÷ 12, 2 submissions)", confidence: "low" },
+      { key: "se2", title: "Software Engineer II", band: [55000, 70000], years: "2–4", scope: "Upper end of the same tiny sample.", source: "Glassdoor upper end (~৳69K/mo)", confidence: "low" },
+    ],
+    salaryNotes:
+      "Very thin: 2 Glassdoor submissions; a $148K/yr USD figure was discarded as a US-market artifact. Absent from the community survey. Senior+ bands left empty — comparable WP product firms pay seniors ৳90–150K but no weDevs-specific evidence exists.",
+    sources: [
+      "https://wedevs.com/about/",
+      "https://www.glassdoor.com/Salary/weDevs-Dhaka-Salaries-EI_IE1972450.0,6_IL.7,12_IM1237.htm (2 reports)",
+      "https://wordpress.org/plugins/dokan-lite/",
+    ],
+  },
+
+  {
+    id: "wpdeveloper",
+    name: "WPDeveloper (Startise)",
+    bn: "ডব্লিউপিডেভেলপার",
+    tagline: "Essential Addons for Elementor — ~2M active installs from a Mirpur DOHS office; now under Startise.",
+    type: "Product",
+    city: "Dhaka",
+    area: "Mirpur",
+    founded: 2012,
+    employees: "~100 (group)",
+    engineers: "~40",
+    website: "https://wpdeveloper.com",
+    hue: 278,
+    tier: 2,
+    domains: ["WordPress plugins", "Elementor / Gutenberg ecosystem", "SaaS"],
+    notable: [
+      "Essential Addons for Elementor — ~2M active installs, 5–6M users in 180+ countries",
+      "NotificationX, BetterDocs, Templately, easy.jobs",
+      "Folded under the Startise parent brand (Feb 2024)",
+    ],
+    about:
+      "Founded in Dhaka in 2012, WPDeveloper grew Essential Addons for Elementor into one of the world's most-installed Elementor addon libraries, alongside NotificationX, BetterDocs and SaaS products. Operating under the Startise brand family since February 2024, with HQ in Mirpur DOHS and a Delaware US registration.",
+    stack: {
+      languages: ["PHP", "JavaScript"],
+      frameworks: ["WordPress APIs", "Elementor API", "React", "Laravel"],
+      tools: ["MySQL", "GitHub", "webpack"],
+    },
+    workStyle: {
+      mode: "Hybrid",
+      notes:
+        "Engineering historically onsite at Mirpur DOHS; the Startise group now hires fully-remote international roles for some functions. Glassdoor 4.4/5 (20 reviews), comp 4.3/5.",
+    },
+    verified: false,
+    levels: [
+      { key: "se1", title: "WordPress Developer (Junior)", band: [30000, 45000], years: "0–2", scope: "Lower half of Glassdoor's WordPress-role range.", source: "Glassdoor: WP roles ৳30–70K/mo, median ৳50K", confidence: "medium" },
+      { key: "se2", title: "WordPress / Software Engineer", band: [45000, 70000], years: "2–4", scope: "Upper half of the same range — the best-evidenced WP-cluster band.", source: "Glassdoor: WP roles ৳30–70K/mo, median ৳50K", confidence: "medium" },
+    ],
+    salaryNotes:
+      "Best-evidenced of the WordPress cluster. No senior/lead/EM figures anywhere public and absent from the community survey — those bands are left empty (seniors likely ৳70–110K, unverified).",
+    sources: [
+      "https://wpdeveloper.com/jobs/",
+      "https://www.glassdoor.com/Reviews/WPDeveloper-Reviews-E2346609.htm (via search snippets)",
+      "https://www.cbinsights.com/company/wpdeveloper (Startise, Feb 2024)",
+    ],
+  },
+
+  {
+    id: "ollyo",
+    name: "Ollyo",
+    bn: "অলিও",
+    tagline: "Tutor LMS, Droip and Themeum under one roof — 15M+ downloads and Dhaka's famous barista-equipped campus.",
+    type: "Product",
+    city: "Dhaka",
+    area: "Khilkhet",
+    founded: 2010,
+    employees: "~70–150",
+    engineers: "~50",
+    website: "https://ollyo.com",
+    hue: 122,
+    tier: 2,
+    domains: ["WordPress LMS / e-learning", "No-code builders", "Themes & design assets"],
+    notable: [
+      "Tutor LMS — the leading WordPress LMS plugin (70K+ users)",
+      "Droip — no-code WordPress website builder",
+      "15M+ collective downloads across brands; in-house barista & chef team",
+    ],
+    about:
+      "Ollyo is the umbrella company Kawshar Ahmed formed to consolidate his brands — JoomShaper (his original 2010 venture), Themeum, IcoFont, and newer products Tutor LMS and Droip — from a dedicated Dhaka campus in Khilkhet famous locally for its office culture. Products have been downloaded 15M+ times collectively.",
+    stack: {
+      languages: ["PHP", "TypeScript", "JavaScript"],
+      frameworks: ["WordPress APIs", "React", "Laravel"],
+      tools: ["MySQL", "GitHub", "Figma"],
+    },
+    workStyle: {
+      mode: "Onsite",
+      notes:
+        "All roles listed 'Onsite / Full Time' at the Dhaka campus, Monday–Friday; strong office-perk culture. BD employees rate compensation 4.2/5.",
+    },
+    verified: false,
+    levels: [],
+    salaryNotes:
+      "Glassdoor holds 23 salaries across 13 roles but all behind login; the only public number is a non-engineering marketing role at ৳50–60K. The 4.2/5 comp rating suggests at-or-above-market pay, but no engineering bands are asserted.",
+    sources: [
+      "https://ollyo.com/careers/",
+      "https://www.glassdoor.com/Salary/Ollyo-Dhaka-Salaries-EI_IE7915752.0,5_IL.6,11_IM1237.htm (login-gated)",
+      "https://www.cloudways.com/blog/kawshar-ahmed-interview/",
+    ],
+  },
+
+  {
+    id: "joomshaper",
+    name: "JoomShaper",
+    bn: "জুমশেপার",
+    tagline: "The Joomla ecosystem's dominant vendor — SP Page Builder, Helix, 13.3M+ downloads; an Ollyo company.",
+    type: "Product",
+    city: "Dhaka",
+    area: "Khilkhet",
+    founded: 2010,
+    employees: "~45",
+    engineers: "~25",
+    website: "https://www.joomshaper.com",
+    hue: 338,
+    tier: 3,
+    domains: ["Joomla templates & extensions", "Page builders", "E-commerce (EasyStore)"],
+    notable: [
+      "SP Page Builder — Joomla's leading drag-and-drop builder",
+      "Helix Ultimate framework powering a large share of Joomla templates",
+      "13.3M+ downloads, ~778K registered users, 314+ products",
+    ],
+    about:
+      "JoomShaper was Kawshar Ahmed's original 2010 venture and grew into the Joomla ecosystem's dominant vendor — SP Page Builder, the free Helix framework and 140+ premium templates. It now operates as 'an Ollyo company' from the shared Khilkhet campus.",
+    stack: {
+      languages: ["PHP", "JavaScript"],
+      frameworks: ["Joomla framework", "React", "Bootstrap/SCSS"],
+      tools: ["MySQL", "GitHub"],
+    },
+    workStyle: {
+      mode: "Onsite",
+      notes: "Onsite at the shared Ollyo campus. Glassdoor 4.3/5 (19 reviews), 74% recommend, though Dhaka reviewers flag comp dissatisfaction.",
+    },
+    verified: false,
+    levels: [
+      { key: "se1", title: "Engineer (role unspecified)", band: [24000, 26000], years: "0–2", scope: "Treat as a floor, not a market band — a tiny sample that may be a junior/support role.", source: "Glassdoor Dhaka ৳290–312K/yr ÷ 12 (tiny sample)", confidence: "low" },
+    ],
+    salaryNotes:
+      "Weakest data of the WordPress cluster — Glassdoor's Dhaka page is nearly empty. As an Ollyo brand its actual pay likely mirrors Ollyo's, but nothing confirms that. Tier 3 reflects pay evidence only, not product stature.",
+    sources: [
+      "https://www.joomshaper.com/about",
+      "https://www.glassdoor.com/Reviews/JoomShaper-Reviews-E4490558.htm (via search snippets)",
+    ],
+  },
+
+  {
+    id: "sebpo",
+    name: "SEBPO (Alloyed)",
+    bn: "এসইবিপিও",
+    tagline: "US-HQ'd ad-ops BPO with huge Dhaka & Jashore centers — rebranding to 'Alloyed' as of 2026.",
+    type: "Outsourcing",
+    city: "Dhaka",
+    area: "Mohakhali",
+    founded: 2006,
+    employees: "1,000+ (BD)",
+    engineers: "",
+    website: "https://alloyed.io",
+    hue: 75,
+    tier: 3,
+    domains: ["Ad operations", "Creative services", "QA & data operations", "BPO"],
+    notable: [
+      "Ad-ops delivery for many of the world's largest advertising/media companies",
+      "Jashore Hi-Tech Park delivery center (2023)",
+      "Rebranding from SEBPO to Alloyed — 'cognitive process orchestration' (people + AI)",
+    ],
+    about:
+      "Founded in 2006 as ServicEngine BPO with HQ in New Jersey, SEBPO grew into a leading outsourcing partner for global advertising and media companies, with delivery centers in Dhaka, Jashore and El Salvador. Work is dominated by ad-campaign management, creative production support, QA and data operations on US-hours night shifts. Currently rebranding to Alloyed (sebpo.com redirects to alloyed.io).",
+    stack: {
+      languages: ["SQL"],
+      frameworks: [],
+      tools: ["Ad-serving / campaign platforms", "Reporting dashboards", "Excel"],
+    },
+    workStyle: {
+      mode: "Onsite",
+      notes:
+        "Shift-based (2pm–11pm and 10pm–7am documented) to match US hours; shift allowances, insurance, two festival bonuses. Glassdoor BD ~3.0/5 (171 reviews).",
+    },
+    verified: false,
+    levels: [],
+    salaryNotes:
+      "No reliable engineering bands: Glassdoor's 246+ BD salaries returned garbled snippets, and the only hard anchor is a non-tech ops circular at ৳15–18K/mo. An ops-heavy BPO where core delivery roles pay well under the engineering band; its engineering roles remain unquantified.",
+    sources: [
+      "https://alloyed.io",
+      "https://www.glassdoor.com/Salary/SEBPO-Dhaka-Salaries-EI_IE2313083.0,5_IL.6,11_IM1237.htm (garbled snippets)",
+      "https://dohaj.com/job-details/executive-digital-advertising-jashore-sebpo-105633",
+    ],
+  },
+
+  {
+    id: "graphicpeople",
+    name: "GraphicPeople / SoftwarePeople",
+    bn: "গ্রাফিকপিপল",
+    tagline: "WPP-lineage offshore creative-production and software studio — famous for 14-month salary years.",
+    type: "Outsourcing",
+    city: "Dhaka",
+    area: "Banani",
+    founded: 2004,
+    employees: "250+",
+    engineers: "",
+    website: "https://www.graphicpeoplestudio.com",
+    hue: 288,
+    tier: 2,
+    domains: ["Creative production", "Marketing technology", "Software for ad networks"],
+    notable: [
+      "Offshore production hub for WPP-network agencies and global brands",
+      "High-volume multilingual ad adaptation",
+      "Twice awarded 'Best Employer' by Bdjobs.com",
+      "⚠ Main website suspended as of mid-2026 — verify current status",
+    ],
+    about:
+      "GraphicPeople started in 2004 as a Denmark–Bangladesh joint venture set up by Adpeople Worldwide (WPP lineage — not Dentsu, as sometimes claimed) and grew from 8 people into one of Bangladesh's largest offshore production hubs, operating jointly as GraphicPeople | SoftwarePeople from Banani. Its main website is currently suspended and no restructuring news was found, so current operating structure is uncertain — re-verify before relying on this entry.",
+    stack: {
+      languages: [],
+      frameworks: [],
+      tools: ["Adobe Creative Suite (core production toolset)"],
+    },
+    workStyle: {
+      mode: "Onsite",
+      notes:
+        "Banani studio aligned to European/US agency workflows; historically a 14-month salary structure (12 + festival + annual bonus). Post-2023 policy unverified.",
+    },
+    verified: false,
+    levels: [],
+    salaryNotes:
+      "No BDT figures anywhere accessible (Glassdoor page 403s; absent from the community survey). The 14-month structure and Best Employer awards suggest mid-market pay — Tier 2 is a low-confidence inference from client profile, not pay evidence.",
+    sources: [
+      "https://www.linkedin.com/company/graphicpeople",
+      "https://digitalexcellenceawards.com/agencies/graphicpeople-dhaka",
+      "https://techbehemoths.com/company/graphicpeople",
+    ],
+  },
+
+  {
+    id: "banglalink",
+    name: "Banglalink (IT / Digital)",
+    bn: "বাংলালিংক",
+    tagline: "VEON's BD telco — the in-house tech org behind MyBL SuperApp and Toffee streaming.",
+    type: "Product",
+    city: "Dhaka",
+    area: "Gulshan",
+    founded: 1996,
+    employees: "1,000+ (company-wide)",
+    engineers: "",
+    website: "https://www.banglalink.net",
+    hue: 30,
+    tier: 1,
+    domains: ["Telecom", "Super-app / consumer digital", "Video streaming", "Data & analytics"],
+    notable: [
+      "MyBL SuperApp",
+      "Toffee — one of BD's largest video-streaming platforms",
+      "Digitalyst internship & Strategic Assistant graduate programs",
+    ],
+    about:
+      "Banglalink launched in 2005 (from Sheba Telecom, founded 1996) and is a VEON subsidiary pursuing a 'digital operator' strategy: its in-house technology org builds MyBL SuperApp, the Toffee streaming platform and BiP integrations from the Tigers' Den HQ in Gulshan, hiring across React/Angular/Flutter and AWS/GCP DevOps. Like Grameenphone, telco total compensation (bonuses, PF, gratuity, allowances) materially exceeds the cash bands shown.",
+    stack: {
+      languages: ["JavaScript", "Dart"],
+      frameworks: ["React", "Angular", "Flutter"],
+      tools: ["AWS", "GCP", "Docker", "CI/CD"],
+    },
+    workStyle: {
+      mode: "Onsite",
+      notes: "Modern HQ (Tigers' Den, Gulshan); structured corporate telco grades. Hybrid flexibility not verified.",
+    },
+    verified: false,
+    levels: [
+      { key: "se1", title: "Specialist / Management Trainee (Tech)", band: [55000, 70000], years: "0–2", scope: "From a published salary-structure guide; grade titles don't map cleanly to SWE levels.", source: "edujobbd.com Banglalink salary structure (MT ~৳60K/mo)", confidence: "low" },
+      { key: "se2", title: "Senior Executive / Specialist", band: [64000, 90000], years: "2–5", scope: "Strategic Assistants report ~৳72.5K.", source: "edujobbd.com (Sr. Executive ~৳64K; SA ~৳72.5K)", confidence: "low" },
+      { key: "lead", title: "Lead Engineer", band: [138000, 165000], years: "8–12", scope: "The one first-party Glassdoor band — explicitly monthly.", source: "Glassdoor Lead Engineer Dhaka monthly pay (৳138–165K)", confidence: "medium" },
+      { key: "em", title: "Manager / Sr. Manager (Technology)", band: [120000, 180000], years: "10+", scope: "Grade-to-engineering mapping is ambiguous; the Manager-below-Lead inversion reflects different tracks.", source: "edujobbd.com (Manager ~৳100K, Director ~৳200K)", confidence: "low" },
+    ],
+    salaryNotes:
+      "A senior-level figure existed only as interpolation between anchors and was excluded. Cash bands look mid-market but telco total comp adds 30–50%+ (festival/performance bonuses, PF, gratuity, insurance) — hence Tier 1, same logic as Grameenphone. Glassdoor 'yearly' BD figures appeared mis-scaled and were ignored except the explicitly-monthly Lead Engineer page.",
+    sources: [
+      "https://www.glassdoor.com/Monthly-Pay/Banglalink-Lead-Engineer-Dhaka-Monthly-Pay-EJI_IE534901.0,10_KO11,24_IL.25,30_IM1237.htm",
+      "https://edujobbd.com/banglalink-salary-structure/",
+      "https://www.banglalink.net/careers",
+    ],
+  },
+
+  {
+    id: "ibos",
+    name: "iBOS (AKIJ)",
+    bn: "আইবিওএস",
+    tagline: "Akij Group's software arm — Managerium ERP, PeopleDesk HR and PrimeVAT for 200+ enterprises.",
+    type: "Product",
+    city: "Dhaka",
+    area: "Lalmatia",
+    founded: 2020,
+    employees: "~300",
+    engineers: "125+",
+    website: "https://ibos.io",
+    hue: 255,
+    tier: 3,
+    domains: ["ERP", "HR tech", "VAT / compliance automation", "Custom software"],
+    notable: [
+      "Managerium ERP (incl. Retail ERP) — software backbone of Akij Group",
+      "PeopleDesk HRMS and PrimeVAT automation",
+      "CMMI + ISO 27001/9001 certified; 400+ implementations claimed",
+    ],
+    about:
+      "AKIJ iBOS is a concern of AKIJ Resource, one of Bangladesh's largest conglomerates, building ERP, HR and VAT products for Akij companies and external clients (2,000+ companies claimed). Stack spans .NET, Laravel, React/Angular and Flutter. Founding year is low-confidence — LinkedIn says 2020 while marketing claims '15+ years of service'.",
+    stack: {
+      languages: ["C#", "PHP", "JavaScript", "Dart", "SQL"],
+      frameworks: [".NET", "Laravel", "React", "Angular", "Flutter"],
+      tools: ["MySQL", "PostgreSQL", "IIS"],
+    },
+    workStyle: {
+      mode: "Onsite",
+      notes:
+        "Onsite at the Lalmatia office. Glassdoor comp & benefits 2.3/5 (Dhaka) — conglomerate-subsidiary pay scales apply.",
+    },
+    verified: false,
+    levels: [
+      { key: "se1", title: "Jr. Software Engineer / Frontend Dev", band: [20000, 35000], years: "0–2", scope: "From the community survey and junior circulars.", source: "Community survey (Frontend ৳20–30K) + BdJobs circulars", confidence: "medium" },
+      { key: "se2", title: "Software Engineer", band: [30000, 45000], years: "2–4", scope: "Below the Dhaka product-company norm, consistent with the 2.3/5 comp rating.", source: "Community survey (SE ৳30–40K)", confidence: "medium" },
+      { key: "senior", title: "Senior Software Engineer", band: [50000, 70000], years: "4–7", scope: "From posted senior ranges.", source: "BdJobs/Glassdoor-listed posting range ৳50–70K", confidence: "low" },
+    ],
+    salaryNotes:
+      "Bands sit clearly below the Dhaka mid-market norm across all levels — Tier 3. No lead/EM evidence; 82 Glassdoor salaries exist but weren't retrievable.",
+    sources: [
+      "https://ibos.io/about-ibos-top-software-company-in-bangladesh/",
+      "https://tahanima.github.io/salary-ranges-offered-by-bangladeshi-software-companies-for-different-positions/",
+      "https://dohaj.com/job-details/sr-frontend-developer-ibos-limited-81948",
+    ],
+  },
 ];
 
 /* Convenience exports used by app.js */
