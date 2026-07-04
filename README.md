@@ -1,4 +1,4 @@
-# StackBD — Bangladesh tech employer directory
+# grepJobs — Bangladesh tech employer directory
 
 A static, no-backend directory of real software companies in Bangladesh: what
 each company builds, its tech stack, community-reported salary bands by level,

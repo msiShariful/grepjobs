@@ -1,5 +1,5 @@
 /* ============================================================
-   StackBD — company data
+   grepJobs — company data
    ------------------------------------------------------------
    REAL COMPANIES, COMMUNITY-REPORTED SALARY DATA.
    Facts (founding, size, stack) come from company sites, press

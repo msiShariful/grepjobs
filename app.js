@@ -1,5 +1,5 @@
 /* ============================================================
-   StackBD — app logic (no build step, no dependencies)
+   grepJobs — app logic (no build step, no dependencies)
    Routes:  #/            directory
             #/company/id  detail page
             #/compare     comparison view
