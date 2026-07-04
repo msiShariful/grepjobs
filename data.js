@@ -1,5 +1,5 @@
 /* ============================================================
-   BD Tech Directory — company data
+   StackBD — company data
    ------------------------------------------------------------
    REAL COMPANIES, COMMUNITY-REPORTED SALARY DATA.
    Facts (founding, size, stack) come from company sites, press

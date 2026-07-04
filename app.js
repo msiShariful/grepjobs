@@ -1,5 +1,5 @@
 /* ============================================================
-   KothayKaj — app logic (no build step, no dependencies)
+   StackBD — app logic (no build step, no dependencies)
    Routes:  #/            directory
             #/company/id  detail page
             #/compare     comparison view
@@ -16,7 +16,7 @@ const state = {
   tech: null,
   compare: (
     new URLSearchParams(location.search).get("compare")?.split(",") ||
-    JSON.parse(localStorage.getItem("kk-compare") || "[]")
+    JSON.parse(localStorage.getItem("sbd-compare") || "[]")
   ).filter((id) => COMPANIES.some((c) => c.id === id)).slice(0, 3),
 };
 
@@ -73,7 +73,7 @@ const logoTile = (c, cls = "") =>
 document.getElementById("theme-toggle").addEventListener("click", () => {
   const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
   document.documentElement.dataset.theme = next;
-  localStorage.setItem("kk-theme", next);
+  localStorage.setItem("sbd-theme", next);
 });
 
 /* ---------- compare selection ---------- */
@@ -85,7 +85,7 @@ function toggleCompare(id) {
     if (state.compare.length >= 3) state.compare.shift();
     state.compare.push(id);
   }
-  localStorage.setItem("kk-compare", JSON.stringify(state.compare));
+  localStorage.setItem("sbd-compare", JSON.stringify(state.compare));
   renderChrome();
   render(); // refresh pressed states / compare page
 }
@@ -106,7 +106,7 @@ function renderChrome() {
       </button>`;
     document.getElementById("tray-clear").onclick = () => {
       state.compare = [];
-      localStorage.setItem("kk-compare", "[]");
+      localStorage.setItem("sbd-compare", "[]");
       renderChrome();
       render();
     };

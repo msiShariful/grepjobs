@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>KothayKaj — Bangladesh tech employer directory</title>
+  <title>StackBD — Bangladesh tech employer directory</title>
   <meta name="description" content="A directory of software companies in Bangladesh: what they build, their tech stacks, career ladders and estimated salary bands." />
   <script>
     // Set theme before first paint to avoid a flash
     (function () {
       const fromUrl = new URLSearchParams(location.search).get("theme");
-      const saved = localStorage.getItem("kk-theme");
+      const saved = localStorage.getItem("sbd-theme") || localStorage.getItem("kk-theme");
       const preferred = fromUrl || saved || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
       document.documentElement.dataset.theme = preferred;
     })();
@@ -23,9 +23,9 @@
 <body>
   <header class="topbar">
     <div class="topbar-inner">
-      <a class="brand" href="#/" aria-label="KothayKaj home">
+      <a class="brand" href="#/" aria-label="StackBD home">
         <span class="brand-mark" aria-hidden="true">৳</span>
-        <span class="brand-name">Kothay<em>Kaj</em></span>
+        <span class="brand-name">Stack<em>BD</em></span>
       </a>
       <div class="topbar-actions">
         <a class="topbar-link" href="#/compare" id="nav-compare">Compare</a>
@@ -43,7 +43,7 @@
 
   <footer class="footer">
     <p>
-      <strong>KothayKaj</strong> — an open, editable directory of Bangladesh's software employers.
+      <strong>StackBD</strong> — an open, editable directory of Bangladesh's software employers.
       Companies are real; salary bands are <strong>community-reported estimates</strong> compiled from
       Glassdoor, levels.fyi and public job postings (July 2026), <strong>not figures verified by the
       companies</strong>. Each company page lists its sources. Edit <code>data.js</code> to update or correct.
